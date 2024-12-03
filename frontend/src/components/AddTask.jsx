@@ -46,7 +46,7 @@ export default function AddTask() {
   return (
     <div>
         <form className='grid grid-cols-2 gap-2 mb-5' onSubmit={handleSubmit}>
-        <input  type="text" placeholder="Type here" className="input input-bordered input-secondary w-full col-span-2" name='taskname' />
+        <input  type="text" placeholder="এখানে লিখুন" className="input input-bordered input-secondary w-full col-span-2" name='taskname' />
             <select class="select font-bold select-secondary w-full" name='teammember'>
                 <option>সম্বলিত কাজ</option>
                 <option>তাশারফ</option>

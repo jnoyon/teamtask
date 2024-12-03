@@ -5,14 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "node index.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dateformat": "^5.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",
+    "mongodb": "^6.11.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.4.1",
@@ -35,5 +40,18 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
     "vite": "^6.0.1"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnoyon/teamtask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnoyon/teamtask/issues"
+  },
+  "homepage": "https://github.com/jnoyon/teamtask#readme"
 }
